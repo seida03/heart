@@ -1,0 +1,29 @@
+#heart{
+  font-size: 400px;
+  color: brown;
+  animation-name: hrt;
+  transform: scale();
+  animation-duration: 2s;
+  position: absolute;
+  animation-iteration-count: infinite;
+  left: 40%;
+  top: 30%;
+
+}
+@keyframes hrt{
+    0%{
+        transform: scale(0.3);
+    }
+    25%{
+        transform: scale(0.5);
+    }
+    50%{
+        transform: scale(0.7);
+    }
+    75%{
+        transform: scale(0.9);
+    }
+    100%{
+        transform: scale(0.3);
+    }
+}
